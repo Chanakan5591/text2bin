@@ -5,7 +5,7 @@ project (text2bin)
 
 add_executable(text2bin main.cpp binfunc.cpp)
 
-install(TARGETS name1
+install(TARGETS text2bin
     DESTINATION ${CMAKE_INSTALL_PREFIX}
     )
 
