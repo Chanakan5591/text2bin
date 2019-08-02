@@ -11,10 +11,7 @@ pool:
 
 steps:
 - script: |
-    rm -rf build; mkdir build; cd build
-  displayName: 'Preparing Environments'
-- script: |
-    cmake ..
+    cmake .
   displayName: 'Creating Build File'
 - script: |
     make
