@@ -24,6 +24,3 @@ jobs:
       - run:
           name: Creating Binary Files
           command: 'cmake --build build'
-      - run:
-          name: Software Test
-          command: './text2bin'
